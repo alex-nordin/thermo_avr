@@ -26,7 +26,7 @@ fn main() -> ! {
         .with_display(Display::On)
         .build();
 
-    lcd.print("Test message!");
-
-    loop {}
+    loop {
+        lcd.print("TEST");
+    }
 }
